@@ -1,0 +1,41 @@
+body {
+    padding: 20px;
+  }
+  h2 {
+    margin-bottom: 20;
+  }
+  ul,
+  ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .dropdownBlock {
+    width: 320px;
+    margin: 40px auto;
+  }
+  .dropdownActive {
+    font-size: 18px;
+    cursor: pointer;
+    padding: 12px 20px;
+    text-align: left;
+    background: rgb(255 192 213);
+    width: 100%;
+  }
+  .dropdownElBlock {
+    margin: 0px;
+    padding: 6px;
+    border: 1px solid;
+  }
+  .dropdownEle.active {
+    background: #f4e8d7;
+  }
+  .dropdownEle {
+    text-align: left;
+    padding: 5px 15px;
+    cursor: pointer;
+    margin-bottom: 2px;
+  }
+  .dropdownEle:hover {
+    background: rgb(232, 227, 227);
+  }
