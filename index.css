@@ -1,0 +1,33 @@
+/*ltera todo o html do projeto*/
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*cada navegador tem uma maneira de lidar um o escroll*/
+/*utilizado pelo firefox*/
+*{
+  scrollbar-width: 10px;
+  scrollbar-color: #8e8e8e;
+}
+
+*::-webkit-scrollbar{
+  width: 8px;
+}
+
+*::-webkit-scrollbar-thumb{
+  background-color: #8e8e8e;
+  border-radius: 20px;
+
+}
+
