@@ -38,7 +38,7 @@ function Procurar() {
   }, [search])
 
   const [videos, setVideosapi] = useState<Videos[]>([]);
-  const API_KEY =  'AIzaSyDR6VTNPiNVqtuSj1V4yXzRK89MYBx2gdc';
+  const API_KEY =  'api_ky';
   const URL = `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${search}&maxResults=48&&key=${API_KEY}`
   async function load() {
     if (search !== '') {
